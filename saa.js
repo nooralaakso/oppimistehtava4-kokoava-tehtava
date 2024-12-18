@@ -22,7 +22,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lang=fi&q=kirkkonummi&uni
     teksti = teksti + "<li>" + "Sää: " + data.weather[0].description + "</li>";  
     teksti = teksti + "<li>" + "Lämpötila: " + data.main.temp + "&degC</li>";
     teksti = teksti + "<li>" + "Tuulen nopeus: " + data.wind.speed + " m/s</li>";
-    var kuva = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
+    var kuva = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
     teksti = teksti + "<p><img src='" + kuva + "' alt='kuva' ></p>"; 
     
     
