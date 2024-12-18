@@ -1,0 +1,348 @@
+body{
+    background-color: #3b1409d8;
+}
+
+.navbar-custom {
+    background-color:#3b1409d8;
+}
+
+.navbar-custom a {
+    color: #e6d9c1;
+    font-family: "Dosis", sans-serif;
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(113, 63, 7);
+    
+}
+
+/*hampurilaiskuvion väri*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 63, 7, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /*reunuksen väri*/
+  .custom-toggler.navbar-toggler {
+    border-color: #713f07;
+  }
+
+  .nav-item .dropdown-menu a:hover {
+    color: #e6d9c1 !important;
+    background:rgb(113, 63, 7) !important;
+    cursor: pointer;
+}
+
+.nav-link.active {
+  color: rgb(57, 6, 6) !important;
+  background-color: #e6d9c1;
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Asettaa fontin koon */
+    font-weight: bold; /* Tekstistä paksumpi */
+    color: #5d4037; /* Väri (ruskea sävy, voi vaihtaa) */
+    text-transform: uppercase; /* Kirjoittaa tekstin isoilla kirjaimilla */
+    letter-spacing: 1px; /* Vähän väliä kirjaimien väliin */
+    font-family: 'Dosis', sans-serif; /* Voit valita haluamasi fontin */
+  }
+
+body { 
+    position: relative; 
+    font-family: "Dosis", sans-serif;
+}
+
+.carousel {
+    margin-top: 80px;
+}
+
+.carousel-inner img {
+  width: 75%; /* Set width to 100% */
+  margin: auto;
+  max-height: 500px;
+  padding-left: 300px;
+ }
+
+ .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e6d9c1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+  
+    .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e6d9c1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  .carousel-caption {
+    font-family: "Dosis", sans-serif;
+  }
+
+  #ravintola{
+    padding-top: 70px;
+  }
+
+  .container img {
+    width: 100%;
+    max-width: 500 px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+  }
+
+  .col-md-4 h3 {
+    font-family: "Dosis", sans-serif;
+    color: #e6d9c1;
+  }
+
+  .col-md-4 p {
+    font-family: "Dosis", sans-serif;
+    padding-top: 20px;
+    color: #e6d9c1;
+  }
+
+
+
+  .kortti-ryhma {
+    display: flex;
+    flex-wrap: wrap;            /* Salli korttien siirtyminen seuraavalle riville */
+    gap: 1rem;                  /* Väli korttien välillä */
+    justify-content: space-between; /* Tasaa kortit horisontaalisesti */
+    margin-top: 70px;
+  }
+
+  
+  .kortti {
+    width: 100%;                /* Kortit vievät koko leveyden säilyttäen prosenttiosuudet */
+    max-width: 25rem;           /* Korttien maksimi leveys */
+    flex: 1 1 30%;              /* Kortit vievät 30% leveyttä (3 korttia per rivi) */
+    border: 1px solid #e6d9c1;
+    border-radius: 0.375rem;
+    background-color: #e6d9c1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  .kortti-img-top {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+  
+  .kortti-body {
+    padding: 1rem;
+    flex-grow: 1;
+  }
+  
+  .kortti-footer {
+    padding: 0.75rem 1rem;
+    background-color:#e6d9c1;
+    border-top: 1px solid #e6d9c1;
+    text-align: right;
+    font-size: 0.875rem;
+    color: #e6d9c1;
+  }
+  
+  .kortti-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+  
+  .kortti-text {
+    font-size: 1rem;
+    color: black;
+  }
+
+ 
+ /* Yleinen asettelu (isoilla näytöillä) */
+ #accordion .card:first-child {
+  margin-top: 70px;
+}
+
+#accordion .card {
+  background-color: #e6d9c1;
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  gap: 20px;
+}
+
+.card-img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Media query pienille näytöille (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Korttien ja tekstin asettelu pienemmillä näytöillä */
+  #accordion .card {
+    display: block; /* Kortti menee pystysuoraan */
+    margin-top: 20px; /* Väliä korttien välillä */
+  }
+
+  .card-content {
+    display: block; /* Teksti ja kuva menevät päällekkäin */
+    gap: 10px; /* Väli teksteille ja kuville */
+  }
+
+  .card-img {
+    width: 100%; /* Kuva vie koko kortin leveysalueen */
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .card-body {
+    padding: 10px; /* Vähemmän tilaa kortin sisällä */
+  }
+}
+
+/* Media query vielä pienemmille näytöille (max-width: 576px) */
+@media (max-width: 576px) {
+  .card-img {
+    width: 100%; /* Kuva vie koko alueen */
+    height: auto;
+  }
+
+  .card-content {
+    padding: 10px; /* Vähemmän väliä elementtien välillä */
+  }
+
+  .card-header {
+    font-size: 1rem; /* Pienennetään otsikon kokoa */
+  }
+}
+ 
+/* Taulukon wrapper */
+.responsive-table-wrapper {
+  display: block; /* Estää vierekkäin asettumisen */
+  width: 100%; /* Varmistaa, että taulukko vie koko rivin */
+  margin-bottom: 20px; /* Lisää väliä taulukon ja lomakkeen väliin */
+}
+
+/* Taulukko */
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 70px;
+  background-color: #e6d9c1;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.responsive-table th {
+  background-color: #c5b79d;
+  font-weight: bold;
+}
+
+/* Lomakkeen tyyli */
+.lomake {
+  display: block; /* Asettaa lomakkeen lohkotason elementiksi */
+  background-color: #e6d9c1;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px; /* Väliä yläpuolelle */
+  max-width: 500px; /* Valinnainen: lomake ei veny liian leveäksi */
+}
+
+/* Lomakkeen sisältö */
+label.muoto {
+  display: inline-block;
+  width: 6em;
+  vertical-align: top;
+}
+
+::placeholder {
+  color: rgb(113, 63, 7);
+}
+
+/* Responsiivisuus pienille näytöille */
+@media screen and (max-width: 768px) {
+  .responsive-table {
+    width: 100%; /* Varmistaa, että taulukko vie koko näytön leveyden */
+  }
+
+}
+
+
+
+
+@media (max-width: 576px) { /* Pienet näytöt, kuten älypuhelimet */
+  .carousel-inner img {
+    width: 100%; /* Hyödynnä täysi leveys pienellä näytöllä */
+    max-height: 300px; /* Rajoita kuvan korkeus, jotta se ei vie liikaa tilaa */
+    padding-left: 0; /* Poista ylimääräinen tyhjä tila */
+  }
+
+  .carousel {
+    margin-top: 20px; /* Pienempi marginaali pienillä näytöillä */
+  }
+
+  .carousel-caption {
+    font-size: 14px; /* Pienennä fonttia, jotta se sopii paremmin näytölle */
+    padding: 5px; /* Lisää hieman tilaa tekstin ympärille */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px; /* Pienennä ohjauselementtien kokoa */
+    height: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) { /* Keskikokoiset näytöt */
+  .carousel-inner img {
+    width: 90%; /* Skaalaa kuvat hieman pienemmiksi kuin täysi leveys */
+    max-height: 400px; /* Rajoita kuvan korkeus */
+    margin: auto; /* Keskitetään kuvat */
+    padding-left: 0; /* Poistetaan mahdollinen vasen täyte */
+  }
+
+  .carousel {
+    margin-top: 40px; /* Kohtalainen marginaali */
+  }
+
+  .carousel-caption {
+    font-size: 16px; /* Pidä fontti hieman suurempana kuin pienillä näytöillä */
+    padding: 10px; /* Lisää marginaalia tekstin ympärille */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 40px; /* Keskikokoiset ohjauselementit */
+    height: 40px;
+  }
+}
+
+/* Keskityslaatikon asettelu */
+.laatikko {
+  display: flex; /* Joustava asettelu */
+  justify-content: center; /* Keskittää vaakasuunnassa */
+  align-items: center; /* Keskittää pystysuunnassa */
+  height: 100vh; /* Vie koko näytön korkeus */
+}
+
+/* Laatikkotyyli */
+.weather-box {
+  background-color:#e6d9c1; /* Laatikon tausta valkoinen */
+  border: 1px solid #e6d9c1; /* Harmaa reunus */
+  border-radius: 8px; /* Pyöristetyt kulmat */
+  padding: 16px; /* Sisennys sisällölle */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Varjo laatikon ympärillä */
+  text-align: center; /* Teksti keskitetään */
+  max-width: 400px; /* Laatikon maksimileveys */
+  width: 100%; /* Vie koko leveys pienemmillä näytöillä */
+}
